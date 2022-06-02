@@ -21,7 +21,7 @@ namespace ExercisesJesus
         public void SearchTest()
         {
             String actualTitle;
-            String expectedTitle = "Google";
+            String expectedTitle = "DuckDuckGo — Privacy, simplified.";
             actualTitle = driver.Title;
             Assert.AreEqual(expectedTitle, actualTitle);
             Console.WriteLine(expectedTitle);
